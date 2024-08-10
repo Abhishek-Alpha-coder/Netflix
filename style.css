@@ -1,0 +1,292 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("asset/images/backimg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px 100vw);
+    height: 80vh;
+    position: relative;
+    
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.56;
+    background-color: rgb(21, 20, 20);
+    position: absolute;
+    top: 0;
+    
+}
+
+
+#sign{
+    font-weight: bolder;
+    border: 1px solid white;
+    
+}
+nav{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    width: 10rem;
+    position: relative;
+    z-index: 1;
+}
+
+nav button{
+    position: relative;
+    z-index: 25;
+}
+
+.hero{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 13rem;
+    position: relative;
+    z-index: 1;
+    font-family: "Nunito Sans", sans-serif;
+    gap: 23px;
+    padding: 23px;
+}
+
+.hero> :first-child{
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.button :first-child{
+    height: 20px;
+    width: 30%;
+    color: rgb(226, 216, 216);
+    text-align: center;
+    padding: 1.5rem 2rem 1.5rem;
+    border: 2px solid black;
+    font-size: 20px;
+    margin-right: 5rem;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.471);
+    position: relative;
+    z-index: 2;
+}
+
+.button button{
+    width: 20%;
+    color: inherit;
+    padding: 1.5rem 1.5rem 1.5rem;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: red;
+    position: relative;
+    z-index: 1;
+    font-weight: bolder;
+
+}
+
+.section{
+    height: 10px;
+    border: 2px solid black;
+    background-color: rgb(49, 48, 48);
+    margin-top: 43px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("asset/images/backimg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    
+}
+
+.main input {
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 900;
+    background-color: rgba(23, 23, 23, 0.2);
+    padding: 7px 101px 8px 14px;
+    border: 1px solid rgba(23, 23, 23, 0.2);
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-img {
+    position: relative;
+}
+
+
+.sec-img img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.sec-img video{
+    width: 555px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
